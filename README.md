@@ -11,7 +11,7 @@ A machine learning-powered web app that recommends skincare products based on yo
 ## Datasets
 This project uses and references the following skincare and beauty datasets:
 
-- [Amazon Skincare Products]([https://www.kaggle.com/datasets/skillsmuggler/amazon-ratings](https://www.kaggle.com/datasets/namantrisoliya/amazon-skincare-products))  
+- [Amazon Skincare Products](https://www.kaggle.com/datasets/skillsmuggler/amazon-ratings](https://www.kaggle.com/datasets/namantrisoliya/amazon-skincare-products)  
   Includes product ratings and reviews from Amazon's beauty category—great for NLP sentiment analysis and popularity-based filtering.
 
 - [INCI Decoder (Ingredient Database)](https://incidecoder.com/)  
