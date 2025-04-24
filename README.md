@@ -1,12 +1,28 @@
 # skincare-recommender-app
-A machine learning-powered web app that recommends skincare products based on your skin concerns (like acne, dryness, or sensitivity), grouped by product category (cleanser, moisturizer, etc).
+BetterSkin is a machine learning-powered web app that recommends personalized skincare products tailored to your unique skin type (dry, oily, sensitive, acne-prone, mature, or dull). It ranks products using a combination of ingredient intelligence and user ratings.
 ## Features
-- Ingredient-based predictions using TF-IDF + ML
-- Grouped recommendations by product type
-- Streamlit-powered user interface
+- Ingredient-based skin match using mapped function tags (e.g., hydrating, anti-aging)
+
+- Custom-trained logistic regression models per skin type
+
+- Ranked recommendations by relevance + rating
+
+- Filter by category, price range, and affordability
+
+- Real-time product and brand name search
+
+- Streamlit-powered UI with a girly aesthetic
 
 ## Tech Stack
-- Python, Pandas, Scikit-learn, Streamlit, TF-IDF, Multilabel Classification
+- Python, Pandas, NumPy
+
+- Scikit-learn (Logistic Regression, Scaling)
+
+- Streamlit for frontend interface
+
+- Google Colab and VS Code for development
+
+- Custom Feature Engineering: ingredient parsing, function tag matching, relevance scoring
 
 ## Datasets
 This project uses and references the following skincare and beauty datasets:
